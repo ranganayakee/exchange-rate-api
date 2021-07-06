@@ -11,4 +11,4 @@ To execute, create an env file at the root folder with the following variables:
     EXCHANGE_RATE_BASE_URL=https://open.exchangerate-api.com/v6/latest\ 
 
 To connect directly to Redis using CLI: \
-    redis-cli -h <endpoint> -p <port> -a <password> 
+    redis-cli -h endpoint -p port -a password 
