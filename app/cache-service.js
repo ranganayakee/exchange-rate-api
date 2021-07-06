@@ -2,7 +2,7 @@
 
 const redis = require("redis");
 const {promisify} = require("util");
-const config = require('./config');
+const config = require('../config');
 
 const redisClient = redis.createClient(
     {

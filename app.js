@@ -11,7 +11,7 @@ const app = express();
 
 app.use(cors())
 
-require("./cache-service");
+require("./app/cache-service");
 
 
 app.use(bodyParser.json());
